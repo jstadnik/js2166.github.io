@@ -4,3 +4,11 @@ h1 {
 body {
 	background: #5F9EA0;
 }
+.jumbotron {
+    position: relative;
+    background: #000 url("picture.jpg") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
