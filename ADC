@@ -2,10 +2,120 @@
 
 <head> 
 <title> The ADC </title>
+<link rel="shortcut icon" href="http://www.iconarchive.com/download/i75813/martz90/circle/camera.ico" type="image/x-icon" /> 
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css_master.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.jumbotron {
+    position: relative;
+    background: #000 url("picture.jpg") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+</style>
 </head>
 
 <body>
-<p1> Location 1 </p1>
-<p> Blah balh blah pretty stuff about the location <p>
-<p> sample images should go here <p>
+<div class="jumbotron">
+  <h1>The ADC</h1> 
+  <p>This place is awesome</p>
+</div>
+<div class="row">
+	<div class="col-sm-6">
+		<div class="img">
+  			<a target="_blank" href="picture.jpg">
+    			<img src="picture.jpg" >
+  			</a>
+  			<div class="desc">
+  				Add a description of the image here
+  			</div>
+		</div> 
+		<div class="img">
+  			<a target="_blank" href="picture.jpg">
+    			<img src="picture.jpg" width="600" height="auto">
+  			</a>
+  			<div class="desc">
+  				Add a description of the image here
+  			</div>
+		</div>
+		<div class="img">
+  			<a target="_blank" href="picture.jpg">
+    			<img src="picture.jpg" width="600" height="auto">
+  			</a>
+  			<div class="desc">
+  				Add a description of the image here
+  			</div>
+		</div>
+		
+	</div>
+  	<div class="col-sm-4">
+  			<h2>About King's College Chapel</h2>
+  			<div class="panel-group" id="accordion">
+    			<div class="panel panel-info">
+      				<div class="panel-heading">
+        				<h4 class="panel-title">
+          					<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">History</a>
+        				</h4>
+      				</div>
+      				<div id="collapse1" class="panel-collapse collapse in">
+        				<div class="panel-body">
+        					Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        				</div>
+      				</div>
+    			</div>
+    			<div class="panel panel-info">
+      				<div class="panel-heading">
+        				<h4 class="panel-title">
+          					<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">When to visit</a>
+        				</h4>
+      				</div>
+      				<div id="collapse2" class="panel-collapse collapse">
+        				<div class="panel-body">
+        					Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        				</div>
+      				</div>
+    			</div>
+    			<div class="panel panel-info">
+      				<div class="panel-heading">
+        				<h4 class="panel-title">
+          					<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">How to pass the porters</a>
+        				</h4>
+      				</div>
+      				<div id="collapse3" class="panel-collapse collapse">
+        				<div class="panel-body">
+        					Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        				</div>
+      				</div>
+    			</div>
+    			<div class="panel panel-info">
+      				<div class="panel-heading">
+        				<h4 class="panel-title">
+          					<a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Tips</a>
+        				</h4>
+      				</div>
+      				<div id="collapse4" class="panel-collapse collapse">
+        				<div class="panel-body">
+        					Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        				</div>
+      				</div>
+    			</div>
+  			</div> 
+		</div>
+</div>
 </body>
