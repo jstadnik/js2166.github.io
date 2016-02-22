@@ -3,6 +3,10 @@ h1 {
 }
 body {
 	background: #5F9EA0;
+	margin-top: auto;
+    	margin-bottom: auto;
+    	margin-right: auto;
+    	margin-left: auto;
 }
 .jumbotron {
     position: relative;
