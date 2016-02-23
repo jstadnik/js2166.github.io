@@ -17,6 +17,9 @@ p {
 body {
 	background: black;
 }
+div.main {
+	margin: 20px;
+}
 div.img {
     margin: 5px;
     border: 1px solid #ccc;
