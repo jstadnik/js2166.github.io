@@ -7,6 +7,9 @@ h2{
   color: white;
   text-align: center;
 }
+p {
+	color: white;
+}
 .lnk{ 
   color: blue;
   font-family: verdana;
