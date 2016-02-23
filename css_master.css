@@ -4,11 +4,11 @@
 }
 h2{
   font-size: 30px;
-  color: rgb(0,204,204);
+  color: rgb(204,0,0);
   text-align: center;
 }
 p {
-	color: white;
+	color: rgb(204,0,0);
 }
 .lnk{ 
   color: blue;
